@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+    <meta charset="UTF-8">
+    <title>运通App下载</title>
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/index.js"></script>
+    <style>
+        body{
+            position: relative;
+            padding:0;
+            margin:0;
+        }
+        #container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        #title {
+            font-size: 60px;
+        }
+
+        #logo {
+            margin-top: 300px;
+        }
+        #btn {
+            width:300px;
+            height:100px;
+            margin-top: 400px;
+            background-color: #01BD9D;
+            color:#fff;
+            text-align: center;
+            font-size: 40px;
+            line-height: 100px;
+            border-radius: 15px;
+            text-decoration:none;
+        }
+        #weixinTip{
+            width:100%;
+            position: absolute;
+            top:0;
+            left:0;
+            background-color: rgba(0, 0, 0, 0.3);
+        }
+        #arrow{
+            position: absolute;
+            height:200px;
+            right:40px;
+            top:30px;
+        }
+        #text{
+            position: absolute;
+            font-size: 40px;
+            color:#fff;
+            top:200px;
+            right:180px;
+        }
+        
+    </style>
+</head>
+
+<body>
+    <div id="container">
+        <image id="logo" src="./img/logo.png" />
+        <h1 id="title">运通</h1>
+        <a id='btn' href="#" >安卓下载</a>
+    </div>
+    <div id='weixinTip'>
+        <image id="arrow" src="./img/arrow.png" />
+        <p id="text">点击右上角，<br>选择“浏览器中打开”</p>
+    </div>
+</body>
+
+</html>
